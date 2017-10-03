@@ -14,6 +14,8 @@
 		34BD04C21F840BF300B869F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34BD04C01F840BF300B869F1 /* LaunchScreen.storyboard */; };
 		34BD04CD1F840BF300B869F1 /* skimmerscannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD04CC1F840BF300B869F1 /* skimmerscannerTests.swift */; };
 		34BD04D81F840BF300B869F1 /* skimmerscannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BD04D71F840BF300B869F1 /* skimmerscannerUITests.swift */; };
+		34BD04E71F840C7A00B869F1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34BD04E61F840C7A00B869F1 /* CoreBluetooth.framework */; };
+		34BD04E91F84177100B869F1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 34BD04E81F84177100B869F1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		34BD04D31F840BF300B869F1 /* skimmerscannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skimmerscannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BD04D71F840BF300B869F1 /* skimmerscannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skimmerscannerUITests.swift; sourceTree = "<group>"; };
 		34BD04D91F840BF300B869F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BD04E61F840C7A00B869F1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		34BD04E81F84177100B869F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34BD04E71F840C7A00B869F1 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				34BD04CB1F840BF300B869F1 /* skimmerscannerTests */,
 				34BD04D61F840BF300B869F1 /* skimmerscannerUITests */,
 				34BD04B51F840BF300B869F1 /* Products */,
+				34BD04E51F840C7900B869F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				34BD04BE1F840BF300B869F1 /* Assets.xcassets */,
 				34BD04C01F840BF300B869F1 /* LaunchScreen.storyboard */,
 				34BD04C31F840BF300B869F1 /* Info.plist */,
+				34BD04E81F84177100B869F1 /* README.md */,
 			);
 			path = skimmerscanner;
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				34BD04D91F840BF300B869F1 /* Info.plist */,
 			);
 			path = skimmerscannerUITests;
+			sourceTree = "<group>";
+		};
+		34BD04E51F840C7900B869F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34BD04E61F840C7A00B869F1 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +249,7 @@
 			files = (
 				34BD04C21F840BF300B869F1 /* LaunchScreen.storyboard in Resources */,
 				34BD04BF1F840BF300B869F1 /* Assets.xcassets in Resources */,
+				34BD04E91F84177100B869F1 /* README.md in Resources */,
 				34BD04BD1F840BF300B869F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
