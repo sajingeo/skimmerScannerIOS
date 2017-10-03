@@ -82,6 +82,7 @@
 		34BD04AB1F840BF200B869F1 = {
 			isa = PBXGroup;
 			children = (
+				34BD04E81F84177100B869F1 /* README.md */,
 				34BD04B61F840BF300B869F1 /* skimmerscanner */,
 				34BD04CB1F840BF300B869F1 /* skimmerscannerTests */,
 				34BD04D61F840BF300B869F1 /* skimmerscannerUITests */,
@@ -109,7 +110,6 @@
 				34BD04BE1F840BF300B869F1 /* Assets.xcassets */,
 				34BD04C01F840BF300B869F1 /* LaunchScreen.storyboard */,
 				34BD04C31F840BF300B869F1 /* Info.plist */,
-				34BD04E81F84177100B869F1 /* README.md */,
 			);
 			path = skimmerscanner;
 			sourceTree = "<group>";
